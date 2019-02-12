@@ -1,0 +1,7 @@
+Create table BookList(
+id INT(6) UNSIGNED AUTO_INCREAMENT PRIMARY KEY,
+Book_Tittle VARCHAR(30) NOT NULL,
+Book_Auth VARCHAR(30) NOT NULL,
+Rating INT(2),
+Total_Ratings INT(6),
+Summary VARCHAR(10000))
